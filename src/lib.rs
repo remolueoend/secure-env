@@ -3,6 +3,7 @@ use app_error::AppError;
 
 pub mod pass;
 pub mod app_error;
+pub mod start_command;
 
 pub trait EnvSource<'a, TArgs> {
     fn new(args: TArgs) -> Self;

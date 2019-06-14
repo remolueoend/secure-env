@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 toml = "0.5"
+clap = "2.33.0"
